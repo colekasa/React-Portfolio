@@ -54,7 +54,7 @@ ul li a {
 .nav-links {
   display: flex;
   list-style: none;
-  font-size: 25px;
+  font-size: 45px;
   cursor: pointer;
 }
 
