@@ -3,11 +3,15 @@ import Nav from "./components/Nav";
 import AboutMe from "./components/AboutMe";
 import MyWork from "./components/MyWork";
 import ContactMe from "./components/ContactMe";
+import Home from "./components/Home";
 
 export default function Portfolio() {
-  const [currentPage, setCurrentPage] = useState("AboutMe");
+  const [currentPage, setCurrentPage] = useState("Home");
 
   const renderPage = () => {
+    if (currentPage === "Home") {
+      return <Home />;
+    }
     if (currentPage === "AboutMe") {
       return <AboutMe />;
     }
@@ -26,7 +30,9 @@ export default function Portfolio() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <footer>
-        <p className="footer"></p>
+        <p className="footer">
+          <a href=""></a>
+        </p>
       </footer>
     </div>
   );

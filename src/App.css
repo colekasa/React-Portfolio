@@ -1,5 +1,6 @@
 :root {
   --iceBlue: #175dc7;
+  --backgroundColor: #005fec;
 }
 * {
   margin: 0px;
@@ -8,12 +9,9 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 57, 95);
 }
 
-.top-background {
-  background-image: url(Assets/background.webp);
-}
 .nav-bar {
   display: flex;
   justify-content: space-between;
@@ -22,25 +20,23 @@ body {
 
 h1 {
   margin: 20px;
-  font-size: 95px;
-  color: white;
-}
-.profile-pic {
-  width: 80px;
-  height: 80px;
-  border-radius: 50px;
-  object-fit: cover;
-  object-position: top;
+  font-size: 45px;
+  color: rgb(2, 0, 117);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #005fec;
+  display: flex;
+  align-items: center;
 }
 
-.linked-in-button {
-  background-color: blue;
-  color: white;
-  border: 0px;
-  padding: 5px 8px 5px 8px;
-  font-size: 24px;
-  font-family: roboto;
-  cursor: pointer;
+h3{
+   flex: 0 0 18%;
+  text-align: center;
+  padding-right: 20px;
+  font-size: 65px;
+  color: #175dc7;
+  margin-top: 145px;
 }
 
 ul li {
@@ -58,35 +54,20 @@ ul li a {
   cursor: pointer;
 }
 
+.tabs {
+  color: #005fec;
+  padding-bottom: 10px;
+  border-bottom: 3px solid;
+}
+
 a:link {
   text-decoration: none;
-  color: white;
+  color: #fdfdfd;
 }
 
 a:visited {
   text-decoration: none;
-  color: white;
-}
-
-.linked-in-ref {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 25px;
-}
-
-.linked-in-ref p {
-  padding: 0 6px 0 6px;
-  margin-top: 20px;
-  font-size: 35px;
-  color: white;
-}
-
-.Linked {
-  font-size: 35px;
-  width: 70px;
-  color: blue;
-  font-family: roboto;
+  color: #ffffff;
 }
 
 main {
@@ -102,18 +83,13 @@ section {
   margin: 20px 0;
 }
 
-section > h2 {
+/* This is where you need to change some of the header style */
+h2 {
   flex: 0 0 18%;
   text-align: center;
   padding-right: 20px;
-  border-right: 3px solid #b85c01;
   font-size: 65px;
-  color: #b85c01;
-}
-
-section > div {
-  flex: 0 0 82%;
-  padding-left: 10px;
+  color: #175dc7;
 }
 
 .container {
@@ -125,6 +101,11 @@ section > div {
 .me-paragraphs {
   color: white;
   padding-left: 25px;
+}
+
+.paragraphs {
+  font-size: 30px;
+  margin: 10px;
 }
 
 .aboutme {
@@ -308,4 +289,54 @@ input[type="submit"]:active {
 
 .topForm {
   margin-top: 20px;
+}
+
+.requiredFields {
+  color: white;
+}
+
+.profilePic {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: solid 6px #005fec;
+  margin: 90px 0px 30px 0px;
+}
+
+.homeImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.jacko {
+  font-size: 60px;
+}
+
+.homeDescription {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 33px;
+  color: white;
+   max-width: 1100px; 
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.skillsList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skillsList li {
+  text-align: center;
+  margin-bottom: 10px; /* Optional: Add spacing between list items */
 }

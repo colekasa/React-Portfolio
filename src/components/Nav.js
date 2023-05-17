@@ -4,21 +4,24 @@ import React from "react";
 export default function Nav({ currentPage, handlePageChange }) {
   return (
     <div>
-      <div className="top-background">
+      <div>
         <nav className="nav-bar">
-          <h1>Cole Kasabian</h1>
+          <a onClick={() => handlePageChange("Home")} href="#home">
+            <h1> CK</h1>
+          </a>
+
           <ul className="nav-links">
-            <li>
+            <li className="tabs">
               <a onClick={() => handlePageChange("AboutMe")} href="#aboutme">
                 About Me
               </a>
             </li>
-            <li>
+            <li className="tabs">
               <a onClick={() => handlePageChange("MyWork")} href="#mywork">
                 My work
               </a>
             </li>
-            <li>
+            <li className="tabs">
               <a
                 onClick={() => handlePageChange("ContactMe")}
                 href="#contactme"
@@ -42,7 +45,6 @@ export default function Nav({ currentPage, handlePageChange }) {
         </a>
       </div> */}
       </div>
-      
     </div>
   );
 }

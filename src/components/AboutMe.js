@@ -1,14 +1,15 @@
 import "../App.css";
 import React from "react";
+import Resume from "../Assets/resume-cole.docx";
 
 export default function AboutMe() {
   return (
     <div>
       <a name="aboutme"></a>
+      <h2>About me</h2>
       <section className="aboutme">
-        <h2>About me</h2>
         <div className="me-paragraphs">
-          <p>
+          <p className="paragraphs">
             My name is Cole Kasabian and welcome to my Portfolio Page. I am a
             full-stack developer based out of Fresno California, making a career
             out of programming. This has become more than a passion, instead it
@@ -20,7 +21,7 @@ export default function AboutMe() {
             games, spending time with people I care about, and working out.
             These are all things that helped shape the person I am today.
           </p>
-          <p>
+          <p className="paragraphs">
             When looking at who I want to be compared to who I am today there
             are some differences. What I aspire to be is someone who can take
             care of their family by working and giving them important life
@@ -29,9 +30,16 @@ export default function AboutMe() {
             means an end to what I want to work on and in fact it is only the
             beginning. Please enjoy looking at what I have created and if you
             have any constructive feedback, please let me know by contacting me
-            with the information provided at the end of my page. Thank you for
+            with the information provided on my contact page. Thank you for
             visiting!
           </p>
+        </div>
+        <div>
+          <form method="get" action={Resume}>
+            <button type="submit" className="resumeBtn">
+              Resume
+            </button>
+          </form>
         </div>
       </section>
     </div>

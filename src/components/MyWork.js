@@ -5,8 +5,8 @@ export default function MyWork() {
   return (
     <div>
       <a name="mywork"></a>
-      <section className="mywork">
         <h2>My Work</h2>
+      <section className="mywork">
         <div className="container">
           <a href="#" className="flex-item javascript">
             <div>
