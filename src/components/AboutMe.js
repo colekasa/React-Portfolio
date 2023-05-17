@@ -6,7 +6,7 @@ export default function AboutMe() {
   return (
     <div>
       <a name="aboutme"></a>
-      <h2>About me</h2>
+      <h2 className="pageHeader">About me</h2>
       <section className="aboutme">
         <div className="me-paragraphs">
           <p className="paragraphs">

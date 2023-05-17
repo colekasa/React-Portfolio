@@ -31,7 +31,20 @@ export default function Portfolio() {
       {renderPage()}
       <footer>
         <p className="footer">
-          <a href=""></a>
+          <a href="https://github.com/colekasa">
+            <img
+              alt="github logo"
+              src="/assets/images/githb-logo.PNG"
+              className="github"
+            ></img>
+          </a>
+          <a href="https://www.linkedin.com/in/cole-kasabian/">
+            <img
+              alt="linkedin logo"
+              src="/assets/images/linkedin-logo.webp"
+              className="linkedIn"
+            ></img>
+          </a>
         </p>
       </footer>
     </div>

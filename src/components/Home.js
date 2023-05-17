@@ -5,6 +5,15 @@ export default function Home() {
   return (
     <div>
       <div className="homeImage">
+        <div className="homeName">
+          <h2>Cole Kasabian</h2>
+          <h2 className="developer">Full-Stack Software Developer</h2>
+          <p className="homeDescription">
+            I am a driven full-stack developer from Fresno, California who has
+            completed a Fire Academy and has his Bachelors in Finance. If you
+            are still interested stick around!
+          </p>
+        </div>
         <img
           alt="profile picture"
           src="/assets/images/profile-pic.PNG"
@@ -12,12 +21,6 @@ export default function Home() {
         ></img>
         <p></p>
       </div>
-      <h2>Cole Kasabian</h2>
-      <p className="homeDescription">
-        I am a driven full-stack developer from Fresno, California. Please take
-        some time to learn a little more about me, starting with some of my skills
-        listed below.
-      </p>
       <h3>Skills</h3>
       <ul className="skillsList">
         <li>Javascript</li>

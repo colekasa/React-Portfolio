@@ -49,10 +49,14 @@ export default function ContactMe() {
   };
   return (
     <div>
-          <h2>Contact Me</h2>
+      <h2 className="pageHeader">Contact Me</h2>
       <div className="contactDiv">
-        <form ref={form} onSubmit={sendEmail} className="contactsBack topForm emailForm">
-          <label className="emailInput">Name</label>
+        <form
+          ref={form}
+          onSubmit={sendEmail}
+          className="topForm emailForm"
+        >
+          <label className="emailInput"> Contact Name</label>
           <input onBlur={handleBlur} type="text" name="user_name" />
           <label className="emailInput">Email</label>
           <input onBlur={handleBlur} type="email" name="user_email" />
@@ -69,19 +73,16 @@ export default function ContactMe() {
         <a name="contactme"></a>
         <div className="contacts">
           <p className="contactsBack">📱 : 559-905-8812</p>
-          <p className="contactsBack">Email: ce.kasabian@gmail.com</p>
+          <p className="contactsBack">📧: ce.kasabian@gmail.com</p>
           <p className="contactsBack">
-            Resume:
             <form method="get" action={Resume}>
+            My Resume:
               <button type="submit" className="resumeBtn">
-                Resume
+                Download
               </button>
             </form>
           </p>
         </div>
-      </div>
-      <div>
-        <p>Social Media</p>
       </div>
     </div>
   );

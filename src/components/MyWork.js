@@ -5,7 +5,7 @@ export default function MyWork() {
   return (
     <div>
       <a name="mywork"></a>
-        <h2>My Work</h2>
+      <h2 className="pageHeader">My Work</h2>
       <section className="mywork">
         <div className="container">
           <a href="#" className="flex-item javascript">
