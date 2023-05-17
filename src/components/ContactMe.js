@@ -49,32 +49,39 @@ export default function ContactMe() {
   };
   return (
     <div>
-      <h2>Contact Me</h2>
-      <form ref={form} onSubmit={sendEmail} className=" topForm emailForm">
-        <label className="emailInput">Name</label>
-        <input onBlur={handleBlur} type="text" name="user_name" />
-        <label className="emailInput">Email</label>
-        <input onBlur={handleBlur} type="email" name="user_email" />
-        <label className="emailInput">Message</label>
-        <textarea onBlur={handleBlur} name="message" />
-        {!validForm && (
-          <p className="requiredFields">Please fill in the required fields.</p>
-        )}
-        {validForm && <p>nothing appears</p>}
-        <input type="submit" value="Send" />
-      </form>
-      <a name="contactme"></a>
-      <div className="contacts">
-        <p>Cole Kasabian</p>
-        <p>559-905-8812</p>
-        <p>ce.kasabian@gmail.com</p>
+          <h2>Contact Me</h2>
+      <div className="contactDiv">
+        <form ref={form} onSubmit={sendEmail} className="contactsBack topForm emailForm">
+          <label className="emailInput">Name</label>
+          <input onBlur={handleBlur} type="text" name="user_name" />
+          <label className="emailInput">Email</label>
+          <input onBlur={handleBlur} type="email" name="user_email" />
+          <label className="emailInput">Message</label>
+          <textarea onBlur={handleBlur} name="message" />
+          {!validForm && (
+            <p className="requiredFields">
+              Please fill in the required fields.
+            </p>
+          )}
+          {validForm && <p></p>}
+          <input type="submit" value="Send" />
+        </form>
+        <a name="contactme"></a>
+        <div className="contacts">
+          <p className="contactsBack">📱 : 559-905-8812</p>
+          <p className="contactsBack">Email: ce.kasabian@gmail.com</p>
+          <p className="contactsBack">
+            Resume:
+            <form method="get" action={Resume}>
+              <button type="submit" className="resumeBtn">
+                Resume
+              </button>
+            </form>
+          </p>
+        </div>
       </div>
       <div>
-        <form method="get" action={Resume}>
-          <button type="submit" className="resumeBtn">
-            Resume
-          </button>
-        </form>
+        <p>Social Media</p>
       </div>
     </div>
   );

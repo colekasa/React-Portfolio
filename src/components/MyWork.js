@@ -10,27 +10,27 @@ export default function MyWork() {
         <div className="container">
           <a href="#" className="flex-item javascript">
             <div>
-              <h3>Javascript</h3>
+              <h4>Javascript</h4>
             </div>
           </a>
           <a href="#" className="flex-item react">
             <div>
-              <h3>React</h3>
+              <h4>React</h4>
             </div>
           </a>
           <a href="#" className="flex-item mern">
             <div>
-              <h3>Mern</h3>
+              <h4>Mern</h4>
             </div>
           </a>
           <a href="#" className="flex-item sql">
             <div>
-              <h3>SQL</h3>
+              <h4>SQL</h4>
             </div>
           </a>
           <a href="#" className="flex-item project">
             <div>
-              <h3>Project</h3>
+              <h4>Project</h4>
             </div>
           </a>
         </div>
