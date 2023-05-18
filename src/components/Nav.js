@@ -23,7 +23,6 @@ export default function Nav({ currentPage, handlePageChange }) {
             <li className="tabs">
               <a
                 onClick={() => handlePageChange("ContactMe")}
-                
               >
                 Contact Me
               </a>

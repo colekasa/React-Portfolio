@@ -21,7 +21,21 @@ export default function AboutMe() {
             games, spending time with people I care about, and working out.
             These are all things that helped shape the person I am today.
           </p>
-          <p className="paragraphs">
+        </div>
+        <div className="imageContainer">
+          <img
+            src="assets/images/me-marissa.jpeg"
+            className="marissaPic"
+            alt="this is a picture of me and my girlfriend"
+          ></img>
+          <img
+            src="assets/images/wedding.jpeg"
+            className="weddingPic"
+            alt="this is a picture of me and my girlfriend"
+          ></img>
+        </div>
+        <div className="me-paragraphs">
+          <p className="paragraphs secondP">
             When looking at who I want to be compared to who I am today there
             are some differences. What I aspire to be is someone who can take
             care of their family by working and giving them important life
@@ -33,13 +47,6 @@ export default function AboutMe() {
             with the information provided on my contact page. Thank you for
             visiting!
           </p>
-        </div>
-        <div>
-          <form method="get" action={Resume}>
-            <button type="submit" className="resumeBtn">
-              Resume
-            </button>
-          </form>
         </div>
       </section>
     </div>

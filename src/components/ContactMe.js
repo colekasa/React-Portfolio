@@ -73,8 +73,8 @@ export default function ContactMe() {
         <a name="contactme"></a>
         <div className="contacts">
           <p className="contactsBack">📱 : 559-905-8812</p>
-          <p className="contactsBack">📧: ce.kasabian@gmail.com</p>
-          <p className="contactsBack">
+          <p className="contactsBack">📧: ce.kasabian @gmail.com</p>
+          <p className="contactsBack resume">
             <form method="get" action={Resume}>
             My Resume:
               <button type="submit" className="resumeBtn">

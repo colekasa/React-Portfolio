@@ -21,18 +21,20 @@ export default function Home() {
         ></img>
         <p></p>
       </div>
-      <h3>Skills</h3>
+      <h3 className="skillsheader">Skills</h3>
       <ul className="skillsList">
         <li>Javascript</li>
         <li>REACT</li>
         <li>Node.js</li>
         <li>NoSQL</li>
         <li>MERN </li>
+      </ul>
+      <ul className="skillsList">
         <li>Express.js</li>
         <li>PWA</li>
         <li>HTML</li>
         <li>Bootstrap</li>
-        <li>MongoDB</li>
+        <li >MongoDB</li>
       </ul>
     </div>
   );
