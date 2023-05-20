@@ -26,6 +26,7 @@ While this repository primarily serves as a showcase for my work, I appreciate c
 If you would like to reach out to me for any reason, please feel free to connect with me via the following channels:
 
 --> Email: ce.kasabian@gmail.com
+
 --> LinkedIn: https://www.linkedin.com/in/cole-kasabian/
 
 I look forward to connecting with you and exploring potential opportunities. Thank you for visiting my portfolio project!
