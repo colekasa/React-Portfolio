@@ -11,7 +11,7 @@ export default function MyWork() {
           <a href="https://note-taker-pad.herokuapp.com/" className="flex-item">
             <div className="flex-inside">
               <img
-                src="/assets/images/note-taker.PNG"
+                src="assets/images/note-taker.PNG"
                 alt="This is a screenshot of my Note Taker application"
                 className="javascript"
               ></img>
@@ -41,7 +41,7 @@ export default function MyWork() {
           >
             <div className="flex-inside">
               <img
-                src="/assets/images/battle-binder.PNG"
+                src="assets/images/battle-binder.PNG"
                 alt="This is a screenshot of my Battle Binder application"
                 className="battle"
               ></img>
@@ -73,7 +73,7 @@ export default function MyWork() {
           >
             <div>
               <img
-                src="/assets/images/jate.PNG"
+                src="assets/images/jate.PNG"
                 alt="This is a screenshot of my JATE PWA application"
                 className="javascript"
               ></img>
@@ -99,7 +99,7 @@ export default function MyWork() {
           >
             <div>
               <img
-                src="/assets/images/brewerMe.PNG"
+                src="assets/images/brewerMe.PNG"
                 alt="This is a screenshot of my BrewerMe application"
                 className="javascript"
               ></img>
