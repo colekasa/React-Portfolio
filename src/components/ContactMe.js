@@ -1,7 +1,7 @@
 import "../App.css";
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-import Resume from "../Assets/resume-cole.docx";
+import Resume from "../Assets/cole-kasabian-resume.docx";
 
 export default function ContactMe() {
   const form = useRef();

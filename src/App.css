@@ -49,6 +49,7 @@ h3 {
 
 .skillsheader {
   margin-top: 90px;
+  font-family: "Quicksand", sans-serif;
 }
 
 ul li {
@@ -70,6 +71,8 @@ ul li a {
   color: #005fec;
   padding-bottom: 10px;
   border-bottom: 3px solid;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 1000;
 }
 
 a:link {
@@ -102,13 +105,16 @@ h2 {
   padding-right: 20px;
   font-size: 65px;
   color: var(--backgroundColor);
+  font-family: "Quicksand", sans-serif;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
+  width: 93%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .me-paragraphs {
@@ -121,6 +127,7 @@ h2 {
   font-size: 35px;
   margin: 10px;
   line-height: 1.5;
+  font-family: "Raleway", sans-serif;
 }
 
 .aboutme {
@@ -132,17 +139,27 @@ h2 {
 
 .mywork {
   margin-top: 60px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .contactme {
   margin-top: 60px;
 }
 
-.flex-item {
-  border: 5px solid #b85c01;
-  height: 150px;
+.flexheader {
   display: flex;
-  align-items: flex-end;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.flex-item {
+  border: 5px solid var(--backgroundColor);
+  height: 650px;
+  display: flex;
   margin: 0.5em;
   flex-basis: calc(50% - 1em);
   padding: 0 0 20px 0;
@@ -153,35 +170,28 @@ h2 {
   background-color: rgb(30, 88, 88);
 }
 
+.flex-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .flex-item div {
   padding: 8px 10px;
-  background-color: #b85c01;
   color: white;
 }
 
-.flex-item:first-child {
-  min-height: 300px;
-  flex-basis: 1000%;
-}
-
 .javascript {
-  background-image: url(Assets/javascript.png);
+  width: 100%;
+  height: 350px;
+  padding: 10px;
 }
 
-.react {
-  background-image: url(Assets/react.jpg);
-}
-
-.mern {
-  background-image: url(Assets/mern.png);
-}
-
-.sql {
-  background-image: url(Assets/sql.png);
-}
-
-.project {
-  background-image: url(Assets/project.png);
+.battle {
+  width: auto;
+  height: 350px;
+  padding: 10px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -228,24 +238,24 @@ h2 {
     display: flex;
     flex-direction: column;
   }
-.contactsBack{
-  width: 100%;
-  height: 220px;
-  display: flex;
-  flex-wrap: wrap;
-  line-height: 1.3;
-}
-.topForm.emailForm{
-  width: 100%;
-  margin: 0;
-}
+  .contactsBack {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.3;
+  }
+  .topForm.emailForm {
+    width: 100%;
+    margin: 0;
+  }
 
-.pageHeader{
-  margin-bottom: 15px;
-}
-.resume{
-  margin-bottom: 80px;
-}
+  .pageHeader {
+    margin-bottom: 15px;
+  }
+  .resume {
+    margin-bottom: 80px;
+  }
 
   .mobileContainer {
     max-width: 480px;
@@ -377,6 +387,7 @@ input[type="submit"]:active {
   color: white;
   margin: 10px;
   font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .topForm {
@@ -419,6 +430,7 @@ input[type="submit"]:active {
   margin-right: auto;
   line-height: 1.4;
   text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .skillsList {
@@ -466,6 +478,7 @@ textarea {
   background-color: #085bd8;
   padding: 30px;
   border-radius: 16px;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .resumeBtn {
@@ -504,6 +517,7 @@ textarea {
 
 .pageHeader {
   color: var(--mygreen);
+  font-family: "Quicksand", sans-serif;
 }
 
 .github {
@@ -533,4 +547,12 @@ textarea {
   width: auto;
   border: solid 8px;
   height: 730px;
+}
+
+.description {
+  font-family: "Oswald", sans-serif;
+}
+
+.workLi{
+  font-size: 19px;
 }
