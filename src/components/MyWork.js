@@ -29,9 +29,14 @@ export default function MyWork() {
                   allows users to create, save, and manage their notes
                   efficiently.
                 </li>
-                <li className="workLi">
+                <ul className="workLi">
                   Technologies Used: HTML, CSS, Node.js, Express.js.
-                </li>
+                  <li>Javascript</li>
+                  <li>REACT</li>
+                  <li>Node.js</li>
+                  <li>NoSQL</li>
+                  <li>MERN </li>
+                </ul>
               </ul>
             </div>
           </a>

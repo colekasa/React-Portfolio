@@ -134,7 +134,7 @@ h2 {
   margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .mywork {
@@ -161,7 +161,7 @@ h2 {
   height: 650px;
   display: flex;
   margin: 0.5em;
-  flex-basis: calc(50% - 1em);
+  flex-basis: calc(75% - 1em);
   padding: 0 0 20px 0;
   background-size: 20%;
   text-decoration: none;
@@ -387,7 +387,7 @@ input[type="submit"]:active {
   color: white;
   margin: 10px;
   font-size: 25px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .topForm {
@@ -441,7 +441,7 @@ input[type="submit"]:active {
   justify-content: center;
   font-size: 30px;
   font-weight: bold;
-  color: #45a049;
+  color: ;
 }
 
 .skillsList li {
@@ -454,6 +454,7 @@ input[type="submit"]:active {
   margin-right: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background-color: #45a049;
 }
 
 .skillsList li:hover {
@@ -478,7 +479,7 @@ textarea {
   background-color: #085bd8;
   padding: 30px;
   border-radius: 16px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .resumeBtn {
@@ -544,15 +545,30 @@ textarea {
 .imageContainer {
   display: flex;
   flex-direction: column;
+  flex-basis: calc(75% - 1em);
   width: auto;
   border: solid 8px;
   height: 730px;
+  justify-content: center;
 }
 
 .description {
   font-family: "Oswald", sans-serif;
 }
 
-.workLi{
+.workLi {
   font-size: 19px;
+}
+
+.workLi li {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border: 2px solid #005fec;
+  border-radius: 4px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #45a049;
 }
