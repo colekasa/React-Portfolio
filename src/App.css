@@ -496,7 +496,6 @@ textarea {
   font-size: 35px;
   font-weight: bold;
   text-decoration: none;
-  border: 2px solid #000;
   border-radius: 4px;
   transition: background-color 0.3s ease;
 }
@@ -549,8 +548,9 @@ textarea {
   flex-basis: calc(75% - 1em);
   width: auto;
   border: solid 8px;
-  height: 730px;
+  height: 830px;
   justify-content: center;
+  margin-bottom: 80px;
 }
 
 .description {
@@ -602,4 +602,31 @@ textarea {
 
 .none{
   display: none;
+}
+
+.homeBtn{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.myResume{
+display: flex;
+border: none;
+}
+
+.homeResume{
+ padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 15px;
+
+  /* Styling */
+  font-size: 35px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(7, 245, 7);
+  padding-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
 }
