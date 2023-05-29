@@ -30,12 +30,12 @@ export default function MyWork() {
                   efficiently.
                 </li>
                 <ul className="workLi">
-                  Technologies Used: HTML, CSS, Node.js, Express.js.
+                  Technologies Used:
                   <li>Javascript</li>
-                  <li>REACT</li>
+                  <li>HTML</li>
                   <li>Node.js</li>
-                  <li>NoSQL</li>
-                  <li>MERN </li>
+                  <li>CSS</li>
+                  <li>Handlebars</li>
                 </ul>
               </ul>
             </div>
@@ -65,9 +65,16 @@ export default function MyWork() {
                   because it has all of the necessary starter cards. You can
                   choose from these cards to build your deck and have some fun!
                 </li>
-                <li className="workLi">
-                  Tehcnologies Used: Node.js, Express.js, MySQL, Handlebars,
-                  Sequelize ORM, Bulma, YGOPRODeck API
+                <li className="battleLi">
+                  Tehcnologies Used:
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                  <li>Node.js</li>
+                  <li>Bulma</li>
+                  <li>Sequelize</li>
+                  <li>Express.js</li>
+                  <li>MySQL</li>
+                  <li>YGOPRODeck API</li>
                 </li>
               </ul>
             </div>
@@ -90,11 +97,15 @@ export default function MyWork() {
                 connection, automatically saves content inside the text editor
                 when the DOM window is unfocused, and is bundled with webpack.
               </p>
-              <ul>
-                <li className="workLi">
-                  Technologies Used: Node.js, Express.js, MySQL, Progressive Web
-                  Application, Javascript, HTML, CSS
-                </li>
+              <ul className="workLi">
+                Technologies Used:
+                <li>Javascript</li>
+                <li>HTML</li>
+                <li>Node.js</li>
+                <li>CSS</li>
+                <li>MySQL</li>
+                <li>Express.js</li>
+                <li>Progressive Web Application</li>
               </ul>
             </div>
           </a>
@@ -123,9 +134,13 @@ export default function MyWork() {
                   by adding tools to my tool belt I will be able to accomplish
                   so much more.
                 </li>
-                <li className="workLi">
-                  Technologies Used: Javascript, CSS, HTML, Third-Party API's
-                </li>
+                <ul className="workLi">
+                  Technologies Used:
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                  <li>HTML</li>
+                  <li>Third-Party API's</li>
+                </ul>
               </ul>
             </div>
           </a>

@@ -34,7 +34,7 @@ export default function Portfolio() {
           <a href="https://github.com/colekasa">
             <img
               alt="github logo"
-              src="../public/assets/images/githb-logo.PNG"
+              src="assets/images/githb-logo.PNG"
               className="github"
             ></img>
           </a>
