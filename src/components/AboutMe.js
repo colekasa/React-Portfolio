@@ -32,17 +32,19 @@ export default function AboutMe() {
                 alt="this is a picture of me and my girlfriend"
               ></img>
               <p className="paragraphs">
-                My name is Cole Kasabian and welcome to my Portfolio Page. I am
-                a full-stack developer based out of Fresno California, making a
-                career out of programming. This has become more than a passion,
-                instead it has become an obsession that I have passion for and
-                want to continue to learn more about. It is an evolving space
-                that you are able to use critical thinking to problem solve at
-                the same time as learning something new nearly every day. To
-                really get to know me though a few things I love would include,
-                playing basketball, playing video games, spending time with
-                people I care about, and working out. These are all things that
-                helped shape the person I am today.
+                As a former Fire Academy Cadet, details matter. When it is not
+                only your life at stake but also the lives of others, there is
+                no doubt that everything must be done meticulously. While coding
+                may not entail the same high-pressure life-or-death situations,
+                the ability to consistently work as a team towards a common goal
+                is a quality I hold in high regard. Progressing through training
+                and participating in mock drills involving realistic fire
+                scenarios has given me valuable perspective on the importance of
+                continuous preparation and learning. Each day, I make it a
+                priority to acquire new knowledge, no matter how small, as it
+                fuels my passion for coding and keeps it alive. The pursuit of
+                knowledge and constant improvement remains the driving force
+                behind my dedication to coding.
               </p>
             </div>
           </div>
@@ -54,16 +56,15 @@ export default function AboutMe() {
             ></img>
             <div className="me-paragraphs">
               <p className="paragraphs secondP">
-                When looking at who I want to be compared to who I am today
-                there are some differences. What I aspire to be is someone who
-                can take care of their family by working and giving them
-                important life lessons. This means creating opportunity for
-                myself by showcasing some of the work that I have accomplished
-                so far. This is by no means an end to what I want to work on and
-                in fact it is only the beginning. Please enjoy looking at what I
-                have created and if you have any constructive feedback, please
-                let me know by contacting me with the information provided on my
-                contact page. Thank you for visiting!
+                When comparing who I want to become with who I am today, certain
+                disparities become apparent. My aspiration is to be someone who
+                can provide for their family by working diligently and imparting
+                valuable life lessons. This involves seizing opportunities by
+                showcasing my accomplishments thus far. However, this is far
+                from the culmination of my ambitions; it is merely the starting
+                point. I invite you to appreciate what I have created and kindly
+                offer any constructive feedback by reaching out to me through
+                the contact information provided on my contact page.
               </p>
             </div>
           </div>
