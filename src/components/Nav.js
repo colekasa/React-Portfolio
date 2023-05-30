@@ -1,5 +1,5 @@
 import "../App.css";
-import React, { useRef } from "react";
+import React from "react";
 import Resume from "../Assets/cole-kasabian-resume.docx";
 
 export default function Nav({ currentPage, handlePageChange }) {

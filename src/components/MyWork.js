@@ -52,7 +52,7 @@ export default function MyWork() {
               <img
                 src={battle}
                 alt="This is a screenshot of my Battle Binder application"
-                className="battle"
+                className="javascript"
               ></img>
               <h4 className="flexheader">Battle Binder</h4>
               <p className="description">

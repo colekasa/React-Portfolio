@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
+import pic1 from "../Assets/me-marissa.jpeg";
+import pic2 from "../Assets/wedding.jpeg";
 
 export default function AboutMe() {
   const [isFirstSlideHidden, setIsFirstSlideHidden] = useState(false);
@@ -27,7 +29,7 @@ export default function AboutMe() {
           <div className={`slideFirst ${isFirstSlideHidden ? "none" : ""}`}>
             <div className="me-paragraphs">
               <img
-                src="assets/images/me-marissa.jpeg"
+                src={pic1}
                 className="marissaPic"
                 alt="this is a picture of me and my girlfriend"
               ></img>
@@ -50,7 +52,7 @@ export default function AboutMe() {
           </div>
           <div className={`nextSlide ${isNextSlideHidden ? "none" : ""}`}>
             <img
-              src="assets/images/wedding.jpeg"
+              src={pic2}
               className="weddingPic"
               alt="this is a picture of me and my girlfriend"
             ></img>

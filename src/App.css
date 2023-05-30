@@ -119,8 +119,9 @@ h2 {
 
 .me-paragraphs {
   color: white;
-  padding-left: 25px;
+  padding: 15px;
   flex: 1;
+  box-sizing: border-box;
 }
 
 .paragraphs {
@@ -155,11 +156,12 @@ h2 {
   justify-content: center;
   align-items: center;
   font-size: 35px;
+  margin: 15px 0px ;
 }
 
 .flex-item {
   border: 5px solid var(--backgroundColor);
-  height: 650px;
+  height: 800px;
   display: flex;
   margin: 0.5em;
   flex-basis: calc(75% - 1em);
@@ -169,6 +171,8 @@ h2 {
   transition: all 0.5s;
   background-blend-mode: soft-light;
   background-color: rgb(30, 88, 88);
+  align-items: center;
+  justify-content: center;
 }
 
 .flex-inside {
@@ -184,15 +188,12 @@ h2 {
 
 .javascript {
   width: 100%;
-  height: 350px;
-  padding: 10px;
-}
-
-.battle {
-  width: auto;
-  height: 350px;
-  padding: 10px;
-  margin-top: 10px;
+  max-width: 800px;
+  overflow: hidden;
+  border-radius: 10px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: relative;
 }
 
 @media screen and (max-width: 768px) {
@@ -306,7 +307,7 @@ h2 {
 p {
   margin-bottom: 15px;
   line-height: 30px;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .contacts p {
@@ -315,20 +316,13 @@ p {
 }
 
 .footer {
-  color: white;
   width: 100%;
-  text-align: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: #45a049; */
   margin-bottom: 0;
-  margin-top: 20px;
-  padding: 0px;
-  position: fixed;
   bottom: 0;
 }
-
 .your-form {
   max-width: 400px;
   margin: 0 auto;
@@ -530,16 +524,24 @@ textarea {
 }
 
 .marissaPic {
-  height: 350px;
+  width: 100%;
+  max-width: 800px;
   overflow: hidden;
   border-radius: 10px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: relative;
 }
 
 .weddingPic {
-  height: 350px;
+  width: 100%;
+  max-width: 800px;
   overflow: hidden;
   border-radius: 10px;
-  margin-top: 30px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: relative;
+  margin-top: 15px;
 }
 
 .imageContainer {
@@ -548,7 +550,7 @@ textarea {
   flex-basis: calc(75% - 1em);
   width: auto;
   border: solid 8px;
-  height: 830px;
+  min-height: 830px;
   justify-content: center;
   margin-bottom: 80px;
 }
@@ -600,23 +602,23 @@ textarea {
   justify-content: center;
 }
 
-.none{
+.none {
   display: none;
 }
 
-.homeBtn{
+.homeBtn {
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
-.myResume{
-display: flex;
-border: none;
+.myResume {
+  display: flex;
+  border: none;
 }
 
-.homeResume{
- padding: 10px 20px;
+.homeResume {
+  padding: 10px 20px;
   border: none;
   background: none;
   cursor: pointer;
