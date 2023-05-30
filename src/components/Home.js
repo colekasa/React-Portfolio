@@ -1,5 +1,6 @@
 import "../App.css";
 import React from "react";
+import profilePic from "../Assets/profile-pic.PNG";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
         </div>
         <img
           alt="profile picture"
-          src="assets/images/profile-pic.PNG"
+          src={profilePic}
           className="profilePic"
         ></img>
         <p></p>
@@ -34,7 +35,7 @@ export default function Home() {
         <li>PWA</li>
         <li>HTML</li>
         <li>Bootstrap</li>
-        <li >MongoDB</li>
+        <li>MongoDB</li>
       </ul>
     </div>
   );

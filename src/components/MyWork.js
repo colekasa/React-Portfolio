@@ -1,5 +1,9 @@
 import "../App.css";
 import React from "react";
+import note from "../Assets/note-taker.png";
+import battle from "../Assets/battle-binder.png";
+import jate from "../Assets/jate.png";
+import brewerMe from "../Assets/brewerMe.PNG";
 
 export default function MyWork() {
   return (
@@ -11,7 +15,7 @@ export default function MyWork() {
           <a href="https://note-taker-pad.herokuapp.com/" className="flex-item">
             <div className="flex-inside">
               <img
-                src="assets/images/note-taker.png"
+                src={note}
                 alt="This is a screenshot of my Note Taker application"
                 className="javascript"
               ></img>
@@ -46,7 +50,7 @@ export default function MyWork() {
           >
             <div className="flex-inside">
               <img
-                src="assets/images/battle-binder.png"
+                src={battle}
                 alt="This is a screenshot of my Battle Binder application"
                 className="battle"
               ></img>
@@ -85,7 +89,7 @@ export default function MyWork() {
           >
             <div>
               <img
-                src="assets/images/jate.png"
+                src={jate}
                 alt="This is a screenshot of my JATE PWA application"
                 className="javascript"
               ></img>
@@ -115,7 +119,7 @@ export default function MyWork() {
           >
             <div>
               <img
-                src="assets/images/brewerMe.PNG"
+                src={brewerMe}
                 alt="This is a screenshot of my BrewerMe application"
                 className="javascript"
               ></img>
