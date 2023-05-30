@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.049e340a.css",
-    "main.js": "/React-Portfolio/static/js/main.16ca1d73.js",
+    "main.css": "/React-Portfolio/static/css/main.2ea38fcb.css",
+    "main.js": "/React-Portfolio/static/js/main.92acf821.js",
     "static/media/profile-pic.PNG": "/React-Portfolio/static/media/profile-pic.c1cc3b076ef72afade90.PNG",
     "static/media/battle-binder.png": "/React-Portfolio/static/media/battle-binder.50b90be034b4ce98e66d.png",
+    "static/media/wedding.jpeg": "/React-Portfolio/static/media/wedding.4ece9e259a7a4adcfb52.jpeg",
+    "static/media/me-marissa.jpeg": "/React-Portfolio/static/media/me-marissa.4480371ca110793ce122.jpeg",
     "static/media/jate.png": "/React-Portfolio/static/media/jate.dd6cd3885c9f7d1e29d3.png",
     "static/media/brewerMe.PNG": "/React-Portfolio/static/media/brewerMe.8e9a86b0520c28b6629b.PNG",
     "static/media/note-taker.png": "/React-Portfolio/static/media/note-taker.c95f67894aae31e74654.png",
     "static/media/cole-kasabian-resume.docx": "/React-Portfolio/static/media/cole-kasabian-resume.15b36eee1d36a40bd4ae.docx",
     "static/media/linkedin-logo.webp": "/React-Portfolio/static/media/linkedin-logo.c593fb09e0e564af375e.webp",
     "index.html": "/React-Portfolio/index.html",
-    "main.049e340a.css.map": "/React-Portfolio/static/css/main.049e340a.css.map",
-    "main.16ca1d73.js.map": "/React-Portfolio/static/js/main.16ca1d73.js.map"
+    "main.2ea38fcb.css.map": "/React-Portfolio/static/css/main.2ea38fcb.css.map",
+    "main.92acf821.js.map": "/React-Portfolio/static/js/main.92acf821.js.map"
   },
   "entrypoints": [
-    "static/css/main.049e340a.css",
-    "static/js/main.16ca1d73.js"
+    "static/css/main.2ea38fcb.css",
+    "static/js/main.92acf821.js"
   ]
 }
